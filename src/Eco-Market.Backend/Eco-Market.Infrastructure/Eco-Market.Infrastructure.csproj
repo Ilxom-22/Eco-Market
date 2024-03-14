@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>Eco_Market.Infrastructure</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Eco-Market.Application\Eco-Market.Application.csproj" />
+      <ProjectReference Include="..\Eco-Market.Persistence\Eco-Market.Persistence.csproj" />
+    </ItemGroup>
+
+</Project>
